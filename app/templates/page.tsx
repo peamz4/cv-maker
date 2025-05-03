@@ -20,7 +20,7 @@ export default function TemplatesPage() {
         <div className="container mx-auto py-4 px-4 flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2">
             <FileText className="h-6 w-6" />
-            <span className="font-bold text-xl">CV Maker</span>
+            <span className="font-bold text-xl">CV Maker by Peam</span>
           </Link>
           <div className="flex items-center gap-4">
             <Link href="/create">
@@ -140,7 +140,7 @@ export default function TemplatesPage() {
 
       <footer className="border-t py-6">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} CV Maker. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Pirawish Pathumngern. All rights reserved.</p>
         </div>
       </footer>
     </div>
