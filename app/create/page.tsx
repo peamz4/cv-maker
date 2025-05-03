@@ -62,14 +62,13 @@ export default function CreateCV() {
     const html2pdfModule = await import("html2pdf.js");
     const html2pdf = html2pdfModule.default || html2pdfModule;
 
-    await html2pdf()
+    html2pdf()
       .from(preview)
       .set({
         margin: 0,
         filename: "cv.pdf",
         html2canvas: { scale: 2, backgroundColor: "#fff", useCORS: true },
         jsPDF: { unit: "pt", format: "a4", orientation: "portrait" },
-        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
       })
       .save();
 
