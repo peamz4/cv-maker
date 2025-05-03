@@ -86,6 +86,7 @@ export function ExperienceForm({ onComplete }: ExperienceFormProps) {
       addExperience({
         id: uuidv4(),
         ...values,
+        location: values.location ?? "",
       });
     }
     form.reset({
@@ -290,7 +291,7 @@ export function ExperienceForm({ onComplete }: ExperienceFormProps) {
                       This is my current job
                     </FormLabel>
                     <FormDescription>
-                      If checked, end date will be set to "Present"
+                      If checked, end date will be set to &quot;Present&quot;
                     </FormDescription>
                   </div>
                 </FormItem>

@@ -1,6 +1,6 @@
 "use client";
 
-import { CVData } from "@/lib/cv-store";
+import type { CVData } from "@/lib/cv-store";
 import { AtSign, Phone, MapPin, Globe } from "lucide-react";
 
 interface ClassicTemplateProps {
@@ -109,7 +109,7 @@ export function ClassicTemplate({ data }: ClassicTemplateProps) {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {data.skills.map((skill) => (
                   <div key={skill.id} className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-primary"></div>
+                    <div className="w-2 h-2 rounded-full bg-primary"/>
                     <span className="font-medium">{skill.name}</span>
                     <span className="text-xs text-gray-600">
                       ({skill.level === 1 && "Beginner"}

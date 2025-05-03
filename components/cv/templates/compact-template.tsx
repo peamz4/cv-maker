@@ -1,6 +1,6 @@
 "use client";
 
-import { CVData } from "@/lib/cv-store";
+import type { CVData } from "@/lib/cv-store";
 import { AtSign, Phone, MapPin, Globe } from "lucide-react";
 
 interface CompactTemplateProps {

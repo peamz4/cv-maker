@@ -1,6 +1,6 @@
 "use client";
 
-import { CVData } from "@/lib/cv-store";
+import type { CVData } from "@/lib/cv-store";
 import { AtSign, Phone, MapPin, Globe } from "lucide-react";
 
 interface CreativeTemplateProps {
@@ -48,7 +48,7 @@ export function CreativeTemplate({ data }: CreativeTemplateProps) {
         {data.personalInfo.summary && (
           <div className="mb-8">
             <div className="flex items-center mb-4">
-              <div className="h-8 w-2 bg-purple-500 mr-4"></div>
+              <div className="h-8 w-2 bg-purple-500 mr-4"/>
               <h2 className="text-2xl font-bold">About Me</h2>
             </div>
             <p className="text-gray-700">{data.personalInfo.summary}</p>
@@ -60,13 +60,13 @@ export function CreativeTemplate({ data }: CreativeTemplateProps) {
             {data.experience.length > 0 && (
               <div className="mb-8">
                 <div className="flex items-center mb-4">
-                  <div className="h-8 w-2 bg-pink-500 mr-4"></div>
+                  <div className="h-8 w-2 bg-pink-500 mr-4"/>
                   <h2 className="text-2xl font-bold">Experience</h2>
                 </div>
                 <div className="space-y-6">
                   {data.experience.map((exp) => (
                     <div key={exp.id} className="relative pl-4 border-l-2 border-gray-200">
-                      <div className="absolute -left-[9px] top-0 w-4 h-4 bg-pink-500 rounded-full"></div>
+                      <div className="absolute -left-[9px] top-0 w-4 h-4 bg-pink-500 rounded-full"/>
                       <h3 className="font-bold text-lg">{exp.position}</h3>
                       <p className="text-purple-600 font-medium">{exp.company}</p>
                       <p className="text-sm text-gray-600">{exp.startDate} - {exp.endDate}</p>
@@ -85,13 +85,13 @@ export function CreativeTemplate({ data }: CreativeTemplateProps) {
             {data.education.length > 0 && (
               <div className="mb-8">
                 <div className="flex items-center mb-4">
-                  <div className="h-8 w-2 bg-purple-500 mr-4"></div>
+                  <div className="h-8 w-2 bg-purple-500 mr-4"/>
                   <h2 className="text-2xl font-bold">Education</h2>
                 </div>
                 <div className="space-y-4">
                   {data.education.map((edu) => (
                     <div key={edu.id} className="relative pl-4 border-l-2 border-gray-200">
-                      <div className="absolute -left-[9px] top-0 w-4 h-4 bg-purple-500 rounded-full"></div>
+                      <div className="absolute -left-[9px] top-0 w-4 h-4 bg-purple-500 rounded-full"/>
                       <h3 className="font-bold">{edu.degree} in {edu.field}</h3>
                       <p className="text-purple-600">{edu.institution}</p>
                       <p className="text-sm text-gray-600">{edu.startDate} - {edu.endDate}</p>
@@ -107,7 +107,7 @@ export function CreativeTemplate({ data }: CreativeTemplateProps) {
             {data.skills.length > 0 && (
               <div>
                 <div className="flex items-center mb-4">
-                  <div className="h-8 w-2 bg-pink-500 mr-4"></div>
+                  <div className="h-8 w-2 bg-pink-500 mr-4"/>
                   <h2 className="text-2xl font-bold">Skills</h2>
                 </div>
                 <div className="flex flex-wrap gap-2">

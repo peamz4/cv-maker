@@ -1,6 +1,6 @@
 "use client";
 
-import { CVData } from "@/lib/cv-store";
+import type { CVData } from "@/lib/cv-store";
 import { AtSign, Phone, MapPin, Globe, Calendar } from "lucide-react";
 
 interface ExecutiveTemplateProps {
@@ -111,7 +111,7 @@ export function ExecutiveTemplate({ data }: ExecutiveTemplateProps) {
                     <div 
                       className="h-1 bg-gray-600 rounded-full" 
                       style={{ width: `${(skill.level / 5) * 100}%` }}
-                    ></div>
+                    />
                   </div>
                 </div>
               ))}

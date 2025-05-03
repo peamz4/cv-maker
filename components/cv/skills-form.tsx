@@ -148,7 +148,7 @@ export function SkillsForm({ onComplete }: SkillsFormProps) {
                       <div 
                         className="bg-primary h-2 rounded-full" 
                         style={{ width: `${(skill.level / 5) * 100}%` }}
-                      ></div>
+                      />
                     </div>
                     <span className="text-xs text-muted-foreground w-20">
                       {getLevelLabel(skill.level)}
@@ -254,12 +254,12 @@ export function SkillsForm({ onComplete }: SkillsFormProps) {
               >
                 <div className="aspect-[3/4] bg-muted rounded flex items-center justify-center">
                   <div className="w-3/4 h-3/4 bg-card flex flex-col p-2">
-                    <div className="w-full h-8 bg-primary mb-2 rounded"></div>
+                    <div className="w-full h-8 bg-primary mb-2 rounded"/>
                     <div className="flex-1 flex">
-                      <div className="w-1/3 bg-secondary/50 mr-2 rounded"></div>
+                      <div className="w-1/3 bg-secondary/50 mr-2 rounded"/>
                       <div className="flex-1 flex flex-col">
-                        <div className="h-24 bg-secondary/50 mb-2 rounded"></div>
-                        <div className="flex-1 bg-secondary/50 rounded"></div>
+                        <div className="h-24 bg-secondary/50 mb-2 rounded"/>
+                        <div className="flex-1 bg-secondary/50 rounded"/>
                       </div>
                     </div>
                   </div>
@@ -279,12 +279,12 @@ export function SkillsForm({ onComplete }: SkillsFormProps) {
                 <div className="aspect-[3/4] bg-muted rounded flex items-center justify-center">
                   <div className="w-3/4 h-3/4 bg-card flex flex-col p-2">
                     <div className="w-full h-10 bg-background mb-2 rounded">
-                      <div className="w-1/2 h-4 bg-primary mt-1 ml-1 rounded"></div>
+                      <div className="w-1/2 h-4 bg-primary mt-1 ml-1 rounded"/>
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <div className="h-20 bg-secondary/50 mb-2 rounded"></div>
-                      <div className="h-20 bg-secondary/50 mb-2 rounded"></div>
-                      <div className="flex-1 bg-secondary/50 rounded"></div>
+                      <div className="h-20 bg-secondary/50 mb-2 rounded"/>
+                      <div className="h-20 bg-secondary/50 mb-2 rounded"/>
+                      <div className="flex-1 bg-secondary/50 rounded"/>
                     </div>
                   </div>
                 </div>
@@ -303,15 +303,15 @@ export function SkillsForm({ onComplete }: SkillsFormProps) {
                 <div className="aspect-[3/4] bg-muted rounded flex items-center justify-center">
                   <div className="w-3/4 h-3/4 bg-card flex flex-col p-2">
                     <div className="w-full h-6 mb-2 rounded">
-                      <div className="w-1/3 h-4 bg-primary rounded"></div>
+                      <div className="w-1/3 h-4 bg-primary rounded"/>
                     </div>
                     <div className="flex-1 flex flex-col gap-2">
-                      <div className="h-4 bg-secondary/50 w-5/6 rounded"></div>
-                      <div className="h-4 bg-secondary/50 w-4/6 rounded"></div>
-                      <div className="h-20 mt-2 bg-secondary/50 rounded"></div>
-                      <div className="h-20 bg-secondary/50 rounded"></div>
-                      <div className="h-4 bg-secondary/50 w-5/6 rounded"></div>
-                      <div className="h-4 bg-secondary/50 w-4/6 rounded"></div>
+                      <div className="h-4 bg-secondary/50 w-5/6 rounded"/>
+                      <div className="h-4 bg-secondary/50 w-4/6 rounded"/>
+                      <div className="h-20 mt-2 bg-secondary/50 rounded"/>
+                      <div className="h-20 bg-secondary/50 rounded"/>
+                      <div className="h-4 bg-secondary/50 w-5/6 rounded"/>
+                      <div className="h-4 bg-secondary/50 w-4/6 rounded"/>
                     </div>
                   </div>
                 </div>
@@ -329,11 +329,11 @@ export function SkillsForm({ onComplete }: SkillsFormProps) {
               >
                 <div className="aspect-[3/4] bg-muted rounded flex items-center justify-center">
                   <div className="w-3/4 h-3/4 bg-card flex flex-col p-2">
-                    <div className="w-full h-12 bg-gray-100 mb-2 rounded"></div>
+                    <div className="w-full h-12 bg-gray-100 mb-2 rounded"/>
                     <div className="flex-1 flex flex-col gap-2">
-                      <div className="h-16 bg-secondary/50 rounded"></div>
-                      <div className="h-24 bg-secondary/50 rounded"></div>
-                      <div className="h-16 bg-secondary/50 rounded"></div>
+                      <div className="h-16 bg-secondary/50 rounded"/>
+                      <div className="h-24 bg-secondary/50 rounded"/>
+                      <div className="h-16 bg-secondary/50 rounded"/>
                     </div>
                   </div>
                 </div>
@@ -351,15 +351,15 @@ export function SkillsForm({ onComplete }: SkillsFormProps) {
               >
                 <div className="aspect-[3/4] bg-muted rounded flex items-center justify-center">
                   <div className="w-3/4 h-3/4 bg-card flex flex-col p-2">
-                    <div className="w-full h-12 bg-gradient-to-r from-purple-500 to-pink-500 mb-2 rounded"></div>
+                    <div className="w-full h-12 bg-gradient-to-r from-purple-500 to-pink-500 mb-2 rounded"/>
                     <div className="flex-1 grid grid-cols-2 gap-2">
                       <div className="space-y-2">
-                        <div className="h-20 bg-secondary/50 rounded"></div>
-                        <div className="h-20 bg-secondary/50 rounded"></div>
+                        <div className="h-20 bg-secondary/50 rounded"/>
+                        <div className="h-20 bg-secondary/50 rounded"/>
                       </div>
                       <div className="space-y-2">
-                        <div className="h-12 bg-secondary/50 rounded"></div>
-                        <div className="h-28 bg-secondary/50 rounded"></div>
+                        <div className="h-12 bg-secondary/50 rounded"/>
+                        <div className="h-28 bg-secondary/50 rounded"/>
                       </div>
                     </div>
                   </div>
@@ -378,13 +378,13 @@ export function SkillsForm({ onComplete }: SkillsFormProps) {
               >
                 <div className="aspect-[3/4] bg-muted rounded flex items-center justify-center">
                   <div className="w-3/4 h-3/4 bg-card flex flex-col p-2">
-                    <div className="w-full h-8 border-b-4 border-gray-900 mb-2"></div>
+                    <div className="w-full h-8 border-b-4 border-gray-900 mb-2"/>
                     <div className="flex-1 flex flex-col gap-1">
-                      <div className="h-3 bg-secondary/50 w-3/4 rounded"></div>
-                      <div className="h-3 bg-secondary/50 w-2/3 rounded"></div>
-                      <div className="h-12 bg-secondary/50 mt-2 rounded"></div>
-                      <div className="h-12 bg-secondary/50 rounded"></div>
-                      <div className="h-12 bg-secondary/50 rounded"></div>
+                      <div className="h-3 bg-secondary/50 w-3/4 rounded"/>
+                      <div className="h-3 bg-secondary/50 w-2/3 rounded"/>
+                      <div className="h-12 bg-secondary/50 mt-2 rounded"/>
+                      <div className="h-12 bg-secondary/50 rounded"/>
+                      <div className="h-12 bg-secondary/50 rounded"/>
                     </div>
                   </div>
                 </div>

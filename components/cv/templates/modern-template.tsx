@@ -1,6 +1,6 @@
 "use client";
 
-import { CVData } from "@/lib/cv-store";
+import type { CVData } from "@/lib/cv-store";
 import { 
   AtSign, 
   Phone, 
@@ -75,7 +75,7 @@ export function ModernTemplate({ data }: ModernTemplateProps) {
                       <div 
                         className="h-2 bg-primary rounded-full" 
                         style={{ width: `${(skill.level / 5) * 100}%` }}
-                      ></div>
+                      />
                     </div>
                   </div>
                 ))}
